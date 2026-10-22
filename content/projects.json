@@ -5,26 +5,54 @@
     "brand": "Oakline Furniture",
     "niche": "Concept · Furniture",
     "title": "A welcome series for a high-ticket store",
-    "cover": "/images/projects/oakline/welcome-1.svg",
+    "cover": "/images/P1 welcome 1.png",
+    "overview": "Oakline sells solid wood sofas, tables and shelving. Most customers visit three or four times before buying, so the email system focuses on trust and education first, and the discount second.",
     "problem": "Long buying cycle. Visitors browse for weeks but get one discount email and nothing else.",
-    "built": ["3-email welcome series", "Browse abandonment flow", "Material & care guide email"],
+    "built": [
+      "3-email welcome series",
+      "Browse abandonment flow",
+      "Material & care guide email"
+    ],
     "why": "Trust content comes before the discount, which suits orders above $500.",
     "kpis": [
-      { "number": "3", "label": "emails in series" },
-      { "number": "2", "label": "flows launched" },
-      { "number": "45%+", "label": "target open rate" }
+      {
+        "number": "3",
+        "label": "emails in series"
+      },
+      {
+        "number": "2",
+        "label": "flows launched"
+      },
+      {
+        "number": "45%+",
+        "label": "target open rate"
+      }
     ],
     "kpi_note": "Targets are based on common industry benchmarks, not measured results.",
-    "overview": "Oakline sells solid wood sofas, tables and shelving. Most customers visit three or four times before buying, so the email system focuses on trust and education first, and the discount second.",
     "flows": [
       {
         "name": "Welcome series",
         "trigger": "Subscribed via popup",
         "description": "Three emails over six days that introduce the brand, show best sellers and answer the most common buying questions.",
         "emails": [
-          { "image": "/images/projects/oakline/welcome-1.svg", "title": "Email 1 · Your code is inside", "timing": "Sent immediately", "note": "Delivers the 10% code and sets expectations for the next emails." },
-          { "image": "/images/projects/oakline/welcome-2.svg", "title": "Email 2 · How we build", "timing": "Day 2", "note": "Shows the workshop and materials to build trust before asking for a sale." },
-          { "image": "/images/projects/oakline/welcome-3.svg", "title": "Email 3 · Best sellers", "timing": "Day 6 · only if no order", "note": "Uses a conditional split so buyers do not get a sales push." }
+          {
+            "image": "/images/projects/oakline/welcome-1.svg",
+            "title": "Email 1 · Your code is inside",
+            "timing": "Sent immediately",
+            "note": "Delivers the 10% code and sets expectations for the next emails."
+          },
+          {
+            "image": "/images/projects/oakline/welcome-2.svg",
+            "title": "Email 2 · How we build",
+            "timing": "Day 2",
+            "note": "Shows the workshop and materials to build trust before asking for a sale."
+          },
+          {
+            "image": "/images/projects/oakline/welcome-3.svg",
+            "title": "Email 3 · Best sellers",
+            "timing": "Day 6 · only if no order",
+            "note": "Uses a conditional split so buyers do not get a sales push."
+          }
         ]
       },
       {
@@ -32,14 +60,22 @@
         "trigger": "Viewed product, did not add to cart",
         "description": "One reminder email showing the exact product the visitor looked at, with care details and reviews.",
         "emails": [
-          { "image": "/images/projects/oakline/browse-1.svg", "title": "Still thinking about it?", "timing": "4 hours after view", "note": "Dynamic product block pulls the viewed item automatically." }
+          {
+            "image": "/images/projects/oakline/browse-1.svg",
+            "title": "Still thinking about it?",
+            "timing": "4 hours after view",
+            "note": "Dynamic product block pulls the viewed item automatically."
+          }
         ]
       }
     ],
     "campaigns": [
-      { "image": "/images/projects/oakline/campaign-1.svg", "title": "Autumn living room edit", "note": "Seasonal campaign sent to engaged subscribers only (opened or clicked in the last 90 days)." }
-    ],
-    "popup": ""
+      {
+        "image": "/images/projects/oakline/campaign-1.svg",
+        "title": "Autumn living room edit",
+        "note": "Seasonal campaign sent to engaged subscribers only (opened or clicked in the last 90 days)."
+      }
+    ]
   },
   {
     "slug": "bloom-care",
@@ -48,24 +84,47 @@
     "niche": "Concept · Health & skincare",
     "title": "A replenishment flow for repeat products",
     "cover": "/images/projects/bloom-care/replenish-1.svg",
+    "overview": "Bloom Care sells a 30-day face serum. Revenue depends on reorders, so the email system follows the customer from first use to the moment the bottle runs out.",
     "problem": "Customers buy once and forget to reorder, even though the product lasts 30 days.",
-    "built": ["Replenishment reminder flow", "Post-purchase how-to series", "Review request email"],
+    "built": [
+      "Replenishment reminder flow",
+      "Post-purchase how-to series",
+      "Review request email"
+    ],
     "why": "The reminder is timed to the product's real usage, so it feels helpful, not pushy.",
     "kpis": [
-      { "number": "Day 25", "label": "reminder timing" },
-      { "number": "3", "label": "flows launched" },
-      { "number": "+1", "label": "review touchpoint" }
+      {
+        "number": "Day 25",
+        "label": "reminder timing"
+      },
+      {
+        "number": "3",
+        "label": "flows launched"
+      },
+      {
+        "number": "+1",
+        "label": "review touchpoint"
+      }
     ],
     "kpi_note": "Targets are based on common industry benchmarks, not measured results.",
-    "overview": "Bloom Care sells a 30-day face serum. Revenue depends on reorders, so the email system follows the customer from first use to the moment the bottle runs out.",
     "flows": [
       {
         "name": "Post-purchase",
         "trigger": "Placed order",
         "description": "Helps new customers use the product correctly, which leads to better results and more reorders.",
         "emails": [
-          { "image": "/images/projects/bloom-care/post-1.svg", "title": "How to get the best results", "timing": "Day 3 after delivery", "note": "Simple 3-step routine with images." },
-          { "image": "/images/projects/bloom-care/review-1.svg", "title": "How is your skin feeling?", "timing": "Day 14", "note": "Review request with a one-click star rating." }
+          {
+            "image": "/images/projects/bloom-care/post-1.svg",
+            "title": "How to get the best results",
+            "timing": "Day 3 after delivery",
+            "note": "Simple 3-step routine with images."
+          },
+          {
+            "image": "/images/projects/bloom-care/review-1.svg",
+            "title": "How is your skin feeling?",
+            "timing": "Day 14",
+            "note": "Review request with a one-click star rating."
+          }
         ]
       },
       {
@@ -73,14 +132,22 @@
         "trigger": "Placed order · serum",
         "description": "Reminds customers to reorder just before the bottle runs out.",
         "emails": [
-          { "image": "/images/projects/bloom-care/replenish-1.svg", "title": "Running low on your serum?", "timing": "Day 25", "note": "One clear button that goes straight to checkout." }
+          {
+            "image": "/images/projects/bloom-care/replenish-1.svg",
+            "title": "Running low on your serum?",
+            "timing": "Day 25",
+            "note": "One clear button that goes straight to checkout."
+          }
         ]
       }
     ],
     "campaigns": [
-      { "image": "/images/projects/bloom-care/campaign-1.svg", "title": "Winter skin routine", "note": "Educational campaign with a product bundle at the end." }
-    ],
-    "popup": ""
+      {
+        "image": "/images/projects/bloom-care/campaign-1.svg",
+        "title": "Winter skin routine",
+        "note": "Educational campaign with a product bundle at the end."
+      }
+    ]
   },
   {
     "slug": "ghor-spice",
@@ -89,29 +156,56 @@
     "niche": "Concept · Food",
     "title": "Popup redesign and abandoned cart",
     "cover": "/images/projects/ghor-spice/popup.svg",
+    "overview": "Ghor Spice Co. sells curated spice boxes. The store had steady traffic but a weak popup and no cart recovery, so the first fix was list growth and the second was recovering lost carts.",
     "problem": "The old popup appeared instantly, had no brand colours and offered \"join our newsletter\".",
-    "built": ["New branded popup with clear offer", "Delayed, scroll-based timing", "2-step abandoned cart flow"],
+    "built": [
+      "New branded popup with clear offer",
+      "Delayed, scroll-based timing",
+      "2-step abandoned cart flow"
+    ],
     "why": "A concrete reward and better timing give people a reason to sign up.",
     "kpis": [
-      { "number": "20 s", "label": "popup delay" },
-      { "number": "2", "label": "cart reminders" },
-      { "number": "3–5%", "label": "target signup rate" }
+      {
+        "number": "20 s",
+        "label": "popup delay"
+      },
+      {
+        "number": "2",
+        "label": "cart reminders"
+      },
+      {
+        "number": "3–5%",
+        "label": "target signup rate"
+      }
     ],
     "kpi_note": "Targets are based on common industry benchmarks, not measured results.",
-    "overview": "Ghor Spice Co. sells curated spice boxes. The store had steady traffic but a weak popup and no cart recovery, so the first fix was list growth and the second was recovering lost carts.",
     "flows": [
       {
         "name": "Abandoned cart",
         "trigger": "Started checkout, no order",
         "description": "Two reminders: a friendly nudge first, then a small incentive.",
         "emails": [
-          { "image": "/images/projects/ghor-spice/cart-1.svg", "title": "You left something in the pot", "timing": "2 hours", "note": "Shows the cart items and a single return-to-cart button." },
-          { "image": "/images/projects/ghor-spice/cart-2.svg", "title": "Free shipping if you finish today", "timing": "24 hours", "note": "Adds an incentive only to people who did not return after email 1." }
+          {
+            "image": "/images/projects/ghor-spice/cart-1.svg",
+            "title": "You left something in the pot",
+            "timing": "2 hours",
+            "note": "Shows the cart items and a single return-to-cart button."
+          },
+          {
+            "image": "/images/projects/ghor-spice/cart-2.svg",
+            "title": "Free shipping if you finish today",
+            "timing": "24 hours",
+            "note": "Adds an incentive only to people who did not return after email 1."
+          }
         ]
       }
     ],
     "campaigns": [
-      { "image": "/images/projects/ghor-spice/campaign-1.svg", "title": "Eid spice box launch", "note": "Launch campaign with early access for VIP customers." }
+      {
+        "image": "/images/projects/ghor-spice/campaign-1.svg",
+        "title": "Eid spice box launch",
+        "note": "Launch campaign with early access for VIP customers."
+      }
     ],
     "popup": "/images/projects/ghor-spice/popup.svg"
   }
