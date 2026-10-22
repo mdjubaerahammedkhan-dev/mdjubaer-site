@@ -36,19 +36,19 @@
         "description": "Three emails over six days that introduce the brand, show best sellers and answer the most common buying questions.",
         "emails": [
           {
-            "image": "/images/projects/oakline/welcome-1.svg",
+            "image": "/images/P1 welcome 1-1.png",
             "title": "Email 1 · Your code is inside",
             "timing": "Sent immediately",
             "note": "Delivers the 10% code and sets expectations for the next emails."
           },
           {
-            "image": "/images/projects/oakline/welcome-2.svg",
+            "image": "/images/P1 welcome 2.png",
             "title": "Email 2 · How we build",
             "timing": "Day 2",
             "note": "Shows the workshop and materials to build trust before asking for a sale."
           },
           {
-            "image": "/images/projects/oakline/welcome-3.svg",
+            "image": "/images/P1 welcome 3.png",
             "title": "Email 3 · Best sellers",
             "timing": "Day 6 · only if no order",
             "note": "Uses a conditional split so buyers do not get a sales push."
