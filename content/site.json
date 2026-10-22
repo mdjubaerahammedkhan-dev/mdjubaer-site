@@ -12,9 +12,18 @@
     "button_main": "Get a free 3-minute audit",
     "button_second": "See sample projects",
     "stats": [
-      { "number": "4", "label": "core flows every store needs" },
-      { "number": "7 days", "label": "typical setup time" },
-      { "number": "1", "label": "clear monthly report" }
+      {
+        "number": "4",
+        "label": "core flows every store needs"
+      },
+      {
+        "number": "7 days",
+        "label": "typical setup time"
+      },
+      {
+        "number": "1",
+        "label": "clear monthly report"
+      }
     ]
   },
   "about": {
@@ -23,9 +32,7 @@
     "title": "Hi, I'm Jubaer.",
     "title_bold": "I build email systems for Shopify stores.",
     "text": "I'm a Klaviyo email marketer and video editor based in Bangladesh. I combine clear email strategy with strong visual design, so your flows look good and do their job: turning visitors into buyers and buyers into repeat customers.",
-    "photo": "/images/site/me-placeholder.svg",
-    "video_youtube_url": "",
-    "video_file": "",
+    "photo": "/images/hjkhjk.jpg",
     "points": [
       "Klaviyo Practitioner Certificate track",
       "Shopify + Klaviyo setup and flows",
@@ -39,10 +46,26 @@
     "title_bold": "the same four places.",
     "text": "These are the problems I check first in every audit. Each one has a direct fix inside Klaviyo.",
     "items": [
-      { "title": "New subscribers hear nothing", "text": "Someone gives you their email for a discount and gets one plain code. Then silence for weeks.", "fix": "A 3–4 email welcome series that tells your story and pushes the first order." },
-      { "title": "Carts left behind", "text": "Shoppers add products, reach checkout and leave. No reminder ever reaches them.", "fix": "Abandoned cart and checkout flows with product images and a timed nudge." },
-      { "title": "A popup nobody fills", "text": "The form looks generic, appears too early, and asks for too much. Your list barely grows.", "fix": "A redesigned popup in your brand style, with better timing and a clear offer." },
-      { "title": "Every email to everyone", "text": "Campaigns go to the whole list. Open rates drop and more mail lands in spam.", "fix": "Engagement segments and a send calendar that protects your deliverability." }
+      {
+        "title": "New subscribers hear nothing",
+        "text": "Someone gives you their email for a discount and gets one plain code. Then silence for weeks.",
+        "fix": "A 3–4 email welcome series that tells your story and pushes the first order."
+      },
+      {
+        "title": "Carts left behind",
+        "text": "Shoppers add products, reach checkout and leave. No reminder ever reaches them.",
+        "fix": "Abandoned cart and checkout flows with product images and a timed nudge."
+      },
+      {
+        "title": "A popup nobody fills",
+        "text": "The form looks generic, appears too early, and asks for too much. Your list barely grows.",
+        "fix": "A redesigned popup in your brand style, with better timing and a clear offer."
+      },
+      {
+        "title": "Every email to everyone",
+        "text": "Campaigns go to the whole list. Open rates drop and more mail lands in spam.",
+        "fix": "Engagement segments and a send calendar that protects your deliverability."
+      }
     ]
   },
   "services": {
@@ -51,9 +74,39 @@
     "title_bold": "Grow into a retainer.",
     "text": "Pick one fixed project to try working with me, or hand over your email channel month by month.",
     "items": [
-      { "tag": "One-off · start here", "title": "Audit & Popup", "points": ["Full review of your Klaviyo account", "Recorded video walkthrough", "Popup and signup form redesign", "Prioritised list of fixes"], "meta": "Delivery: 3 days" },
-      { "tag": "One-off · core system", "title": "Flow Build", "points": ["Welcome series", "Abandoned cart & checkout", "Browse abandonment", "Post-purchase & win-back"], "meta": "Delivery: 7–10 days" },
-      { "tag": "Monthly · ongoing", "title": "Email Partner", "points": ["4–8 designed campaigns per month", "Segment and list hygiene", "Flow A/B testing", "Monthly revenue report"], "meta": "Billed monthly, cancel any time" }
+      {
+        "tag": "One-off · start here",
+        "title": "Audit & Popup",
+        "points": [
+          "Full review of your Klaviyo account",
+          "Recorded video walkthrough",
+          "Popup and signup form redesign",
+          "Prioritised list of fixes"
+        ],
+        "meta": "Delivery: 3 days"
+      },
+      {
+        "tag": "One-off · core system",
+        "title": "Flow Build",
+        "points": [
+          "Welcome series",
+          "Abandoned cart & checkout",
+          "Browse abandonment",
+          "Post-purchase & win-back"
+        ],
+        "meta": "Delivery: 7–10 days"
+      },
+      {
+        "tag": "Monthly · ongoing",
+        "title": "Email Partner",
+        "points": [
+          "4–8 designed campaigns per month",
+          "Segment and list hygiene",
+          "Flow A/B testing",
+          "Monthly revenue report"
+        ],
+        "meta": "Billed monthly, cancel any time"
+      }
     ]
   },
   "process": {
@@ -61,11 +114,31 @@
     "title": "From first message to",
     "title_bold": "first report.",
     "steps": [
-      { "title": "Free video audit", "text": "I record a short walkthrough of your store, popup and emails.", "time": "Day 0" },
-      { "title": "Strategy call", "text": "We agree on goals, the offer and which flows come first.", "time": "Day 1" },
-      { "title": "Build in Klaviyo", "text": "Flows, templates and forms built in your brand style.", "time": "Day 2–7" },
-      { "title": "Test & launch", "text": "Every link, discount and split is checked before going live.", "time": "Day 8" },
-      { "title": "Report & improve", "text": "Monthly numbers, what worked, and the next test.", "time": "Every month" }
+      {
+        "title": "Free video audit",
+        "text": "I record a short walkthrough of your store, popup and emails.",
+        "time": "Day 0"
+      },
+      {
+        "title": "Strategy call",
+        "text": "We agree on goals, the offer and which flows come first.",
+        "time": "Day 1"
+      },
+      {
+        "title": "Build in Klaviyo",
+        "text": "Flows, templates and forms built in your brand style.",
+        "time": "Day 2–7"
+      },
+      {
+        "title": "Test & launch",
+        "text": "Every link, discount and split is checked before going live.",
+        "time": "Day 8"
+      },
+      {
+        "title": "Report & improve",
+        "text": "Monthly numbers, what worked, and the next test.",
+        "time": "Every month"
+      }
     ]
   },
   "work": {
@@ -82,9 +155,18 @@
     "email": "hello@mdjubaer.com",
     "button": "Request my free audit",
     "details": [
-      { "label": "Freelance profiles", "value": "Upwork · Fiverr" },
-      { "label": "Working hours", "value": "Mon–Sat, overlaps with US mornings and UK afternoons" },
-      { "label": "Reply time", "value": "Within 12 hours" }
+      {
+        "label": "Freelance profiles",
+        "value": "Upwork · Fiverr"
+      },
+      {
+        "label": "Working hours",
+        "value": "Mon–Sat, overlaps with US mornings and UK afternoons"
+      },
+      {
+        "label": "Reply time",
+        "value": "Within 12 hours"
+      }
     ]
   },
   "footer": {
