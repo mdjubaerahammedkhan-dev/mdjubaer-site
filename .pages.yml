@@ -1,1 +1,189 @@
+# Pages CMS settings: turns content/*.json into easy forms at app.pagescms.org
+media:
+  input: images
+  output: /images
+
+content:
+  - name: site
+    label: Website text & photo
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: brand
+        label: Name & menu
+        type: object
+        fields:
+          - { name: name, label: Your name, type: string }
+          - { name: tagline, label: Tagline next to name, type: string }
+          - { name: nav_button, label: Menu button text, type: string }
+
+      - name: hero
+        label: Top section (hero)
+        type: object
+        fields:
+          - { name: eyebrow, label: Small text above headline, type: string }
+          - { name: title, label: Headline (normal part), type: string }
+          - { name: title_bold, label: Headline (bold part), type: string }
+          - { name: text, label: Paragraph, type: text }
+          - { name: button_main, label: Blue button text, type: string }
+          - { name: button_second, label: Second button text, type: string }
+          - name: stats
+            label: Numbers row
+            type: object
+            list: true
+            fields:
+              - { name: number, label: Number, type: string }
+              - { name: label, label: Label, type: string }
+
+      - name: about
+        label: About me (photo & video)
+        type: object
+        fields:
+          - { name: show, label: Show this section, type: boolean }
+          - { name: eyebrow, label: Small text above headline, type: string }
+          - { name: title, label: Headline (normal part), type: string }
+          - { name: title_bold, label: Headline (bold part), type: string }
+          - { name: text, label: Paragraph, type: text }
+          - { name: photo, label: Your photo (portrait, about 800px wide), type: image }
+          - { name: video_youtube_url, label: Intro video YouTube link (leave empty if none), type: string }
+          - { name: video_file, label: Or intro video MP4 file under 25MB, type: file }
+          - { name: points, label: Check-mark points, type: string, list: true }
+
+      - name: problems
+        label: Problems section
+        type: object
+        fields:
+          - { name: eyebrow, label: Small text above headline, type: string }
+          - { name: title, label: Headline (normal part), type: string }
+          - { name: title_bold, label: Headline (bold part), type: string }
+          - { name: text, label: Paragraph, type: text }
+          - name: items
+            label: Problem cards
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Problem title, type: string }
+              - { name: text, label: Problem text, type: text }
+              - { name: fix, label: Fix text, type: text }
+
+      - name: services
+        label: Services section
+        type: object
+        fields:
+          - { name: eyebrow, label: Small text above headline, type: string }
+          - { name: title, label: Headline (normal part), type: string }
+          - { name: title_bold, label: Headline (bold part), type: string }
+          - { name: text, label: Paragraph, type: text }
+          - name: items
+            label: Service cards
+            type: object
+            list: true
+            fields:
+              - { name: tag, label: Small label, type: string }
+              - { name: title, label: Service name, type: string }
+              - { name: points, label: What is included, type: string, list: true }
+              - { name: meta, label: Delivery / billing line, type: string }
+
+      - name: process
+        label: Process section
+        type: object
+        fields:
+          - { name: eyebrow, label: Small text above headline, type: string }
+          - { name: title, label: Headline (normal part), type: string }
+          - { name: title_bold, label: Headline (bold part), type: string }
+          - name: steps
+            label: Steps
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Step title, type: string }
+              - { name: text, label: Step text, type: text }
+              - { name: time, label: Timing, type: string }
+
+      - name: work
+        label: Portfolio section heading
+        type: object
+        fields:
+          - { name: eyebrow, label: Small text above headline, type: string }
+          - { name: title, label: Headline (normal part), type: string }
+          - { name: title_bold, label: Headline (bold part), type: string }
+          - { name: text, label: Paragraph, type: text }
+
+      - name: contact
+        label: Contact section
+        type: object
+        fields:
+          - { name: eyebrow, label: Small text above headline, type: string }
+          - { name: title, label: Headline (normal part), type: string }
+          - { name: title_bold, label: Headline (bold part), type: string }
+          - { name: text, label: Paragraph, type: text }
+          - { name: email, label: Email address, type: string }
+          - { name: button, label: Button text, type: string }
+          - name: details
+            label: Contact details
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Label, type: string }
+              - { name: value, label: Value, type: string }
+
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - { name: left, label: Left text, type: string }
+          - { name: right, label: Right text, type: string }
+
+  - name: projects
+    label: Portfolio projects
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - { name: slug, label: "Page address (lowercase, no spaces, e.g. oakline)", type: string, required: true }
+      - { name: show, label: Show on website, type: boolean }
+      - { name: brand, label: Brand name, type: string }
+      - { name: niche, label: Small label (e.g. Concept · Furniture), type: string }
+      - { name: title, label: Project title, type: string }
+      - { name: cover, label: Cover image on homepage, type: image }
+      - { name: overview, label: Overview paragraph, type: text }
+      - { name: problem, label: Problem, type: text }
+      - { name: built, label: What I built, type: string, list: true }
+      - { name: why, label: Why it works, type: text }
+      - name: kpis
+        label: Numbers
+        type: object
+        list: true
+        fields:
+          - { name: number, label: Number, type: string }
+          - { name: label, label: Label, type: string }
+      - { name: kpi_note, label: Note under numbers, type: string }
+      - name: flows
+        label: Flows
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Flow name, type: string }
+          - { name: trigger, label: Trigger, type: string }
+          - { name: description, label: Description, type: text }
+          - name: emails
+            label: Emails in this flow
+            type: object
+            list: true
+            fields:
+              - { name: image, label: Email design image, type: image }
+              - { name: title, label: Email title, type: string }
+              - { name: timing, label: Timing (e.g. Day 2), type: string }
+              - { name: note, label: Why this email, type: text }
+      - name: campaigns
+        label: Campaigns
+        type: object
+        list: true
+        fields:
+          - { name: image, label: Campaign design image, type: image }
+          - { name: title, label: Campaign title, type: string }
+          - { name: note, label: Note, type: text }
+      - { name: popup, label: Popup design image (optional), type: image }
 
