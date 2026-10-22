@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 640" width="600" height="640" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="640" fill="#3a1508"/>
+<rect x="60" y="50" width="480" height="540" rx="22" fill="#fff7ec"/>
+<text x="500" y="96" font-size="22" fill="#9a6a52">✕</text>
+<text x="100" y="120" font-size="14" letter-spacing="3" fill="#9a6a52">GHOR SPICE CO.</text>
+<text x="100" y="210" font-size="80" font-weight="700" fill="#c2410c" letter-spacing="-3">15% off</text>
+<text x="100" y="258" font-size="22" font-weight="700" fill="#2c0f06">your first spice box, plus our</text>
+<text x="100" y="288" font-size="22" font-weight="700" fill="#2c0f06">free curry guide.</text>
+<rect x="100" y="330" width="400" height="54" rx="8" fill="#ffffff" stroke="#e3cdb6"/>
+<text x="120" y="363" font-size="16" fill="#9a6a52">your@email.com</text>
+<rect x="100" y="400" width="400" height="56" rx="8" fill="#c2410c"/>
+<text x="300" y="434" font-size="16" font-weight="700" letter-spacing="2" fill="#ffffff" text-anchor="middle">SEND MY CODE</text>
+<text x="300" y="500" font-size="14" fill="#9a6a52" text-anchor="middle">No thanks, I'll pay full price</text>
+<text x="300" y="550" font-size="12" fill="#9a6a52" text-anchor="middle">Shown after 20 seconds or 50% scroll</text>
+</svg>

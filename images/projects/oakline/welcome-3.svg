@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1180" width="600" height="1180" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="1180" fill="#f4f1ea"/>
+<rect width="600" height="34" fill="#1d2a24" opacity="0.06"/>
+<text x="300.0" y="22" font-size="12" fill="#1d2a24" opacity="0.6" text-anchor="middle">Welcome · Email 3</text>
+<text x="300.0" y="88" font-size="26" font-weight="700" letter-spacing="3" fill="#1d2a24" text-anchor="middle">OAKLINE</text>
+<line x1="40" y1="116" x2="560" y2="116" stroke="#1d2a24" stroke-opacity="0.15"/>
+<rect x="40" y="140" width="520" height="340" rx="6" fill="#cfd8cf"/>
+<circle cx="210" cy="360" r="110" fill="#b07a4a" opacity="0.85"/>
+<rect x="300" y="250" width="180" height="200" rx="90" fill="#2b4c3f" opacity="0.55"/>
+<rect x="120" y="440" width="380" height="16" rx="8" fill="#1d2a24" opacity="0.18"/>
+<text x="300.0" y="540" font-size="36" font-weight="700" fill="#1d2a24" text-anchor="middle">The three pieces people</text>
+<text x="300.0" y="584" font-size="36" font-weight="700" fill="#1d2a24" text-anchor="middle">reorder most.</text>
+<text x="300.0" y="634" font-size="17" fill="#1d2a24" opacity="0.75" text-anchor="middle">Your 10% code is still active for 48 hours.</text>
+<rect x="170.0" y="680" width="260" height="54" rx="4" fill="#2b4c3f"/>
+<text x="300.0" y="714" font-size="15" font-weight="700" letter-spacing="2" fill="#ffffff" text-anchor="middle">USE MY CODE</text>
+<text x="300.0" y="780" font-size="14" letter-spacing="3" fill="#1d2a24" opacity="0.6" text-anchor="middle">CUSTOMER FAVOURITES</text>
+<rect x="40.0" y="804" width="160.0" height="160.0" rx="4" fill="#cfd8cf" opacity="0.8"/>
+<rect x="52.0" y="978.0" width="120.0" height="10" rx="5" fill="#1d2a24" opacity="0.35"/>
+<rect x="52.0" y="996.0" width="53.333333333333336" height="10" rx="5" fill="#2b4c3f" opacity="0.8"/>
+<rect x="220.0" y="804" width="160.0" height="160.0" rx="4" fill="#b07a4a" opacity="0.8"/>
+<rect x="232.0" y="978.0" width="120.0" height="10" rx="5" fill="#1d2a24" opacity="0.35"/>
+<rect x="232.0" y="996.0" width="53.333333333333336" height="10" rx="5" fill="#2b4c3f" opacity="0.8"/>
+<rect x="400.0" y="804" width="160.0" height="160.0" rx="4" fill="#cfd8cf" opacity="0.8"/>
+<rect x="412.0" y="978.0" width="120.0" height="10" rx="5" fill="#1d2a24" opacity="0.35"/>
+<rect x="412.0" y="996.0" width="53.333333333333336" height="10" rx="5" fill="#2b4c3f" opacity="0.8"/>
+<rect x="0" y="1070" width="600" height="110" fill="#1d2a24" opacity="0.07"/>
+<text x="300.0" y="1118" font-size="13" fill="#1d2a24" opacity="0.6" text-anchor="middle">Oakline · Sample design by Md Jubaer</text>
+<text x="300.0" y="1140" font-size="12" fill="#1d2a24" opacity="0.45" text-anchor="middle">Unsubscribe · Manage preferences</text>
+</svg>

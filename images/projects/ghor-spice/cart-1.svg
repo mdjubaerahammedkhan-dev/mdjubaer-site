@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1180" width="600" height="1180" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="1180" fill="#fff7ec"/>
+<rect width="600" height="34" fill="#2c0f06" opacity="0.06"/>
+<text x="300.0" y="22" font-size="12" fill="#2c0f06" opacity="0.6" text-anchor="middle">Abandoned cart · Email 1</text>
+<text x="300.0" y="88" font-size="26" font-weight="700" letter-spacing="3" fill="#2c0f06" text-anchor="middle">GHOR SPICE</text>
+<line x1="40" y1="116" x2="560" y2="116" stroke="#2c0f06" stroke-opacity="0.15"/>
+<rect x="40" y="140" width="520" height="340" rx="6" fill="#f2cf9e"/>
+<circle cx="210" cy="360" r="110" fill="#a3330f" opacity="0.85"/>
+<rect x="300" y="250" width="180" height="200" rx="90" fill="#c2410c" opacity="0.55"/>
+<rect x="120" y="440" width="380" height="16" rx="8" fill="#2c0f06" opacity="0.18"/>
+<text x="300.0" y="540" font-size="36" font-weight="700" fill="#2c0f06" text-anchor="middle">You left something in</text>
+<text x="300.0" y="584" font-size="36" font-weight="700" fill="#2c0f06" text-anchor="middle">the pot.</text>
+<text x="300.0" y="634" font-size="17" fill="#2c0f06" opacity="0.75" text-anchor="middle">Your spice box is saved. Finish your order in one</text>
+<text x="300.0" y="660" font-size="17" fill="#2c0f06" opacity="0.75" text-anchor="middle">click.</text>
+<rect x="170.0" y="706" width="260" height="54" rx="4" fill="#c2410c"/>
+<text x="300.0" y="740" font-size="15" font-weight="700" letter-spacing="2" fill="#ffffff" text-anchor="middle">RETURN TO MY CART</text>
+<rect x="0" y="1070" width="600" height="110" fill="#2c0f06" opacity="0.07"/>
+<text x="300.0" y="1118" font-size="13" fill="#2c0f06" opacity="0.6" text-anchor="middle">Ghor Spice · Sample design by Md Jubaer</text>
+<text x="300.0" y="1140" font-size="12" fill="#2c0f06" opacity="0.45" text-anchor="middle">Unsubscribe · Manage preferences</text>
+</svg>
